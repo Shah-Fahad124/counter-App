@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.buttons {
+    width: 15rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.minus {
+    width: 47%;
+}
+
+.plus {
+    width: 47%;
+}
+
+.incrementBy {
+    margin-top: 3rem;
+}
+
+.incrementBy input {
+    width: 4rem;
+}
